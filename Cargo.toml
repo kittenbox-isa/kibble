@@ -2,4 +2,5 @@
 
 members = [
     "kibble-repr",
+    "kibble-intern",
 ]

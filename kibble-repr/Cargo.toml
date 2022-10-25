@@ -6,3 +6,4 @@ license = "BSD-3-Clause"
 authors = ["Avery R. <contact@nekodjin.org>"]
 
 [dependencies]
+kibble-intern = { version = "0.0.0", path = "../kibble-intern" }

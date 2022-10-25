@@ -1,0 +1,7 @@
+[package]
+name = "kibble-intern"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+internment = "0.7.0"
