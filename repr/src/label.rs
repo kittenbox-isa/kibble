@@ -1,7 +1,7 @@
 use std::ops;
 
-use kibble_intern::intern;
-use kibble_intern::IString;
+use intern::intern;
+use intern::IString;
 
 pub struct Label {
     text: IString,

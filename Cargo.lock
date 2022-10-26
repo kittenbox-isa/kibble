@@ -52,6 +52,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "intern"
+version = "0.0.0"
+dependencies = [
+ "internment",
+]
+
+[[package]]
 name = "internment"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -59,13 +66,6 @@ checksum = "2a798d7677f07d6f1e77be484ea8626ddb1566194de399f1206306820c406371"
 dependencies = [
  "hashbrown",
  "parking_lot",
-]
-
-[[package]]
-name = "kibble-intern"
-version = "0.0.0"
-dependencies = [
- "internment",
 ]
 
 [[package]]
@@ -126,7 +126,7 @@ dependencies = [
 name = "repr"
 version = "0.0.0"
 dependencies = [
- "kibble-intern",
+ "intern",
 ]
 
 [[package]]

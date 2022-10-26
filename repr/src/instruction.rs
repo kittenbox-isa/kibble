@@ -1,4 +1,4 @@
-use kibble_intern::IString;
+// use intern::IString;
 
 use crate::Immediate;
 use crate::Register;
