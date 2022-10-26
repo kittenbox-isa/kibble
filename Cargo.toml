@@ -1,6 +1,6 @@
 [workspace]
 
 members = [
-    "kibble-repr",
+    "repr",
     "kibble-intern",
 ]

@@ -69,13 +69,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "kibble-repr"
-version = "0.0.0"
-dependencies = [
- "kibble-intern",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.135"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -127,6 +120,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fb5a58c1855b4b6819d59012155603f0b22ad30cad752600aadfcb695265519a"
 dependencies = [
  "bitflags",
+]
+
+[[package]]
+name = "repr"
+version = "0.0.0"
+dependencies = [
+ "kibble-intern",
 ]
 
 [[package]]
