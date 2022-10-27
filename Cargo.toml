@@ -3,4 +3,5 @@
 members = [
     "repr",
     "intern",
+    "opcodes",
 ]
