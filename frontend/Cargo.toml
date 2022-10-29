@@ -1,0 +1,8 @@
+[package]
+name = "frontend"
+version = "0.0.0"
+edition = "2021"
+authors = ["Avery R. <contact@nekodjin.org>"]
+
+[dependencies]
+repr = { version = "0.0.0", path = "../repr" }

@@ -4,4 +4,6 @@ members = [
     "repr",
     "intern",
     "opcodes",
+    "frontend",
+    "backend",
 ]
